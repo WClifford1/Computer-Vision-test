@@ -13,6 +13,9 @@ matplotlib>=3.7.0
 scipy>=1.10.0
 polars>=0.19.0
 
+# Pose detection
+mediapipe>=0.10.0
+
 # Additional utilities
 requests>=2.31.0
 PyYAML>=6.0

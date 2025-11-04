@@ -35,6 +35,21 @@ python yolo_cyberpunk.py images/your_image.jpg --show
 
 Saves to `outputs/cyberpunk/`.
 
+### Pose Detection
+Real-time skeleton tracking with MediaPipe.
+
+Webcam:
+```bash
+python pose_demo.py --show --conf 0.5
+```
+
+Images:
+```bash
+python pose_demo.py images/your_image.jpg --show
+```
+
+Saves to `outputs/pose/`.
+
 ## Options
 
 - `source` - Path to image/video file, or `0` for webcam (default: `0`)
