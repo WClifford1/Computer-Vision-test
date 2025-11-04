@@ -20,6 +20,21 @@ python yolo_demo.py images/your_image.jpg --show --conf 0.4
 python yolo_demo.py path/to/video.mp4 --show
 ```
 
+### Cyberpunk Style
+Neon visualization with corner brackets, glow effects, and HUD labels.
+
+Webcam:
+```bash
+python yolo_cyberpunk.py --show --conf 0.4
+```
+
+Images:
+```bash
+python yolo_cyberpunk.py images/your_image.jpg --show
+```
+
+Saves to `outputs/cyberpunk/`.
+
 ## Options
 
 - `source` - Path to image/video file, or `0` for webcam (default: `0`)
